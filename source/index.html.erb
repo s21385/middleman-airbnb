@@ -2,14 +2,23 @@
 title: Le Wagon - Middleman
 ---
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<div class="box">
+  <div id="home">
+    <div class="home-content">
+      <%= image_tag "kiss.jpg", width: "200" %>
+      <h1>Are you ready to rock?</h1>
+      <p>Coming soon @ Le Wagon Montreal:</p>
+
+   <%= partial "layouts/cards" %>
+
+
+      </div>
+    </div>
+
+
   </div>
+   <p class="about">
+        <%= link_to "More about this template", "about.html" %>
+      </p>
+
 </div>
